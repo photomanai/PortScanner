@@ -134,3 +134,38 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build and distribution
+dist/
+build/
+
+# Dependency directories
+bower_components/
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Coverage directory (for test coverage tools)
+coverage/
+
+# Other files that should be ignored
+*.log
+*.swp
+
+# NPM package lock file (optional)
+package-lock.json
