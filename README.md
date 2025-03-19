@@ -114,4 +114,3 @@ Key fixes made:
 
 The markdown should now render properly on GitHub and other markdown viewers.
 ```
-````
