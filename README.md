@@ -1,6 +1,3 @@
-Here's the fixed README.md with proper markdown formatting and corrections:
-
-````markdown
 # Node.js Port Scanner
 
 A lightweight TCP port scanner built with Node.js net module, featuring configurable scanning speeds and port ranges.
@@ -22,6 +19,7 @@ A lightweight TCP port scanner built with Node.js net module, featuring configur
 ```bash
 node --version
 ```
+
 ````
 
 2. Clone the repository
@@ -104,8 +102,6 @@ The developer assumes no liability for misuse of this software. Always obtain pr
 
 MIT License - See [LICENSE](LICENSE) file
 
-<<<<<<< HEAD
-=======
 ```
 
 Key fixes made:
@@ -118,4 +114,4 @@ Key fixes made:
 
 The markdown should now render properly on GitHub and other markdown viewers.
 ```
->>>>>>> b9c7cd2 (README.md)
+````
