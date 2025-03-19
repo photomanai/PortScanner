@@ -1,3 +1,6 @@
+Here's the fixed README.md with proper markdown formatting and corrections:
+
+```markdown
 # Node.js Port Scanner
 
 A lightweight TCP port scanner built with Node.js net module, featuring configurable scanning speeds and port ranges.
@@ -19,8 +22,6 @@ A lightweight TCP port scanner built with Node.js net module, featuring configur
 ```bash
 node --version
 ```
-
-````
 
 2. Clone the repository
 
@@ -57,22 +58,22 @@ node scan.js -h 172.16.0.10 -p 1-1024 -T4
 
 ## Options
 
-| Option | Description                                |
-| ------ | ------------------------------------------ |
-| `-h`   | Target host (required)                     |
-| `-p`   | Port(s) to scan (comma-separated or range) |
-| `-p-`  | Scan all ports (1-65535)                   |
-| `-T`   | Speed template (1-5, default: 3)           |
+| Option | Description                                  |
+|--------|----------------------------------------------|
+| `-h`   | Target host (required)                       |
+| `-p`   | Port(s) to scan (comma-separated or range)   |
+| `-p-`  | Scan all ports (1-65535)                     |
+| `-T`   | Speed template (1-5, default: 3)             |
 
 ## Speed Templates
 
-| Template | Timeout | Concurrent | Description        |
-| -------- | ------- | ---------- | ------------------ |
-| `-T1`    | 2000ms  | 10         | Paranoid (slowest) |
-| `-T2`    | 1000ms  | 20         | Polite             |
-| `-T3`    | 500ms   | 50         | Normal (default)   |
-| `-T4`    | 200ms   | 100        | Aggressive         |
-| `-T5`    | 50ms    | 200        | Insane (fastest)   |
+| Template | Timeout | Concurrent | Description               |
+|----------|---------|------------|---------------------------|
+| `-T1`    | 2000ms  | 10         | Paranoid (slowest)        |
+| `-T2`    | 1000ms  | 20         | Polite                    |
+| `-T3`    | 500ms   | 50         | Normal (default)          |
+| `-T4`    | 200ms   | 100        | Aggressive                |
+| `-T5`    | 50ms    | 200        | Insane (fastest)          |
 
 ## Technical Notes
 
@@ -101,7 +102,6 @@ The developer assumes no liability for misuse of this software. Always obtain pr
 ## License
 
 MIT License - See [LICENSE](LICENSE) file
-
 ```
 
 Key fixes made:
@@ -111,3 +111,5 @@ Key fixes made:
 4. Standardized table column alignment
 5. Fixed markdown syntax for nested code blocks
 6. Improved consistency in punctuation and formatting
+
+The markdown should now render properly on GitHub and other markdown viewers.
