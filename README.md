@@ -23,7 +23,7 @@ node --version
 2. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/node-port-scanner.git
+git clone https://github.com/photomanai/PortScanner.git
 cd node-port-scanner
 ```
 
