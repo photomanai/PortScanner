@@ -101,4 +101,4 @@ The developer assumes no liability for misuse of this software. Always obtain pr
 ## License
 
 MIT License - See [LICENSE](LICENSE) file
-````
+
