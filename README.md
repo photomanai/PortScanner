@@ -1,6 +1,3 @@
-Here's the fixed README.md with proper markdown formatting and corrections:
-
-```markdown
 # Node.js Port Scanner
 
 A lightweight TCP port scanner built with Node.js net module, featuring configurable scanning speeds and port ranges.
